@@ -18,7 +18,7 @@ This project is an HTTP service that lets users manage their products. User mana
 
 ## Usage
 
-`GET /products/` lists all the products.
+`GET /products/` lists all products.
 
 `GET /products/{id}` shows product details by the specified id.
 
@@ -28,7 +28,9 @@ This project is an HTTP service that lets users manage their products. User mana
 
 `DELETE /products/{id}` removes the product by the specified id. Authorization required.
 
-**Authorization**: The request is expected to have an `Authorization` header with the token issued by `AIexMoran/httpCRUD`. The usage may be found [here](https://github.com/AIexMoran/httpCRUD).
+### Authorization
+
+The request is expected to have an `Authorization` header with the token issued by `AIexMoran/httpCRUD`. The usage may be found [here](https://github.com/AIexMoran/httpCRUD).
 
 Example:
 
