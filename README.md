@@ -6,9 +6,15 @@ This project is an HTTP service that lets users manage their products. User mana
 
 `Docker` and `docker-compose` must be installed on the system to be able to run this project.
 
-1. `make build` builds images of this project and `AIexMoran/httpCRUD` a path to which must be specified in the `docker-compose.yml` file.
+- `make up` creates and runs Docker containers of this project and `AIexMoran/httpCRUD` a path to which must be specified in the `docker-compose.yml` file.
 
-2. `make run` runs Docker containers.
+- `make down` stops and removes containers, networks, images, and volumes.
+
+- `make build` builds or rebuilds services.
+
+- `make start` starts services.
+
+- `make stop` stops services.
 
 ## Usage
 
