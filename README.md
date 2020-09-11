@@ -23,3 +23,9 @@ This project is an HTTP service that lets users manage their products. User mana
 `DELETE /products/{id}` removes the product by the specified id. Authorization required.
 
 **Authorization**: The request is expected to have an `Authorization` header with the token issued by `AIexMoran/httpCRUD`. The usage may be found [here](https://github.com/AIexMoran/httpCRUD).
+
+Example:
+
+```
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+```
