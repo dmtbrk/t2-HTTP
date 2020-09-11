@@ -1,4 +1,4 @@
-# Task 1: TCP Client-Server
+# Task 2: HTTP service
 
 This project is an HTTP service that lets users manage their products. User management is provided by [AIexMoran/httpCRUD](https://github.com/AIexMoran/httpCRUD) service.
 
