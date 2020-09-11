@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  market_http:
+    build: .
+    env_file: .env
+    ports:
+      - 8080:8080
+    depends_on:
+      - user_http
+
+  user_http:
+    build: ~/Projects/Sigma/Internship/peers/AlexMoran/httpCRUD
+    env_file: ~/Projects/Sigma/Internship/peers/AlexMoran/httpCRUD/.env
+    ports:
+      - 8888:8888
